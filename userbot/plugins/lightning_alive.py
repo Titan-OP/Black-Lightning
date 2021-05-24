@@ -1,5 +1,3 @@
-
-
 import asyncio
 import os
 
@@ -54,15 +52,15 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-lightning_cap = "**𝕭𝖑𝖆𝖈𝖐 𝕷𝖎𝖌𝖍𝖙𝖓𝖎𝖓𝖌 IS `[O̲̅][n̲̅][l̲̅][i̲̅][n̲̅][e̲̅]`**\n\n"
-lightning_cap += f"**†rïdεη† ﾚïgh†'š mαš†εr**   : {DEFAULTUSER}\n"
-lightning_cap += f"{DEFAULTUSER}'s 𝔊𝔯𝔬𝔲𝔭:   {TG}\n"  
-lightning_cap += f"{DEFAULTUSER}'s ℭ𝔥𝔞𝔫𝔫𝔢𝔩:   {TG_CHANN}\n\n"
-lightning_cap += f"`𝕋𝕖𝕝𝕖𝕥𝕙𝕠𝕟 𝕍𝕖𝕣𝕤𝕚𝕠𝕟`:   {__version__}\n"
-lightning_cap += "`ℙ𝕪𝕥𝕙𝕠𝕟 𝕍𝕖𝕣𝕤𝕚𝕠𝕟`:    3.9.0\n"
-lightning_cap += "`𓂀 𝐿𝒾𝑔𝒽𝓉𝓃𝒾𝓃𝑔 𝒞𝒽𝒶𝓃𝓃𝑒𝓁 𓂀`:   [J̳o̳i̳n̳](https://t.me/black_lightning_Channel)\n"
-lightning_cap += "`𓂀 𝐿𝒾𝑔𝒽𝓉𝓃𝒾𝓃𝑔 𝒮𝓊𝓅𝓅𝑜𝓇𝓉 𓂀`:   [J̳o̳i̳n̳](https://t.me/lightning_support_Group)\n"
-lightning_cap += "`一═デ︻ ¢σρуяιgнт ︻デ═一`:   [KeinShin](https://github.com/KeinShin/) and [DEVS](https://github.com/KeinShin/Black-Lightning/graphs/contributors)"
+lightning_cap = "**🔥| вℓα¢к ℓιgнтηιηg ιѕ σηℓιηє |🔥**\n\n"
+lightning_cap += f"**『ℓιgнтηιηg'ѕ мαѕтєя』**   : {DEFAULTUSER}\n"
+lightning_cap += f"{DEFAULTUSER}'s gяσυρ:   {TG}\n"  
+lightning_cap += f"{DEFAULTUSER}'s ¢нαηηєℓ:   {TG_CHANN}\n\n"
+lightning_cap += f"тєℓєтнση νєяѕιση:   {__version__}\n"
+lightning_cap += "ρутнση νєяѕιση:    3.9.0\n"
+lightning_cap += "✨ ℓιgнтηιηg ¢нαηηєℓ ✨:   [Jσιη](https://t.me/black_lightning_Channel)\n"
+lightning_cap += "✨ ℓιgнтηιηg ѕυρρσят ✨:   [Jσιη](https://t.me/lightning_support_Group)\n"
+lightning_cap += "¢σρуяιgнт: [KeinShin](https://github.com/KeinShin/) | [тє¢нησ ρяσ](https://telegram.me/DARK_DEVIL_OP) and [DEVS](https://github.com/KeinShin/Black-Lightning/graphs/contributors)"
 
 
 @borg.on(lightning_cmd(pattern = r"alive"))
